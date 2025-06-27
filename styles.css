@@ -2,10 +2,19 @@ body{
     background-color: black;
 }
 
+.modalbuttons{
+    padding-top: 13px;
+}
+
 #camera{
     background-color: lightsteelblue;
 }
 
 #pin{
     background-color: lightsteelblue;
+    padding
+}
+
+.col{
+    padding-bottom: 24px;
 }
