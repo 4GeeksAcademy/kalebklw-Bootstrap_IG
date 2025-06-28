@@ -15,6 +15,21 @@ body{
     padding
 }
 
-.col{
-    padding-bottom: 24px;
+.navpills{
+    padding-top: 10px;
+}
+
+.postheader.bg-success{
+    height: 50px;
+    background-color: white !important;
+}
+
+.postbody{
+    height: 100px;
+    background-color: black !important;
+}
+
+.posttext{
+    height: 70px;
+    background-color: azure;
 }

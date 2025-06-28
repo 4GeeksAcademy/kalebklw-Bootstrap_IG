@@ -11,13 +11,13 @@
 <body>
 <div class="Everything-Navbar">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><i class="bi bi-instagram"></i> Instagram</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i class="bi bi-instagram"></i> Instagram</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-    </button>
+        </button>
 
-
+<!--Start Modal-->
 
     <div class="Everything-Modal">
         <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#ModalTest">Create a new post</button>
@@ -45,7 +45,7 @@
     </div>
     </div>
 
-
+<!--End Modal-->
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -61,71 +61,106 @@
         </li>
       </ul>
     </div>
-
-
-
   </div>
 </nav>
 </div>
 
-<div class="Everything-Grid">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col">
-        <div class="bg-primary text-light">
-          <img src="https://imgs.search.brave.com/iqXqYtXIumzQMuTicP1NL_k2e-qMOt_JZoWYRggzz3M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZnJlZWltYWdl/cy5jb20vaW1hZ2Vz/L2xhcmdlLXByZXZp/ZXdzL2EzMC9oYXBw/eS1wbGF5ZnVsLWRv/Zy0wNDEwLTU2OTk0/NzIuanBnP2ZtdA" class="img-fluid">
+
+
+<div class="navpills">
+  <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#Grid" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="text-secondary bi bi-grid-3x3"></i></button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#Individual" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="text-secondary bi bi-square-fill"></i></button>
+    </li>
+  </ul>  
+    <div class="tab-content" id="pills-tabContent">
+      <!--3x3 Grid-->
+      <div class="tab-pane fade show active" id="Grid" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+        <div class="Everything-Grid">
+
+          <div class="container tab-pane">
+            <div class="row justify-content-center">
+              <div class="col">
+                <div class="bg-primary text-light">
+                  <img src="https://imgs.search.brave.com/iqXqYtXIumzQMuTicP1NL_k2e-qMOt_JZoWYRggzz3M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZnJlZWltYWdl/cy5jb20vaW1hZ2Vz/L2xhcmdlLXByZXZp/ZXdzL2EzMC9oYXBw/eS1wbGF5ZnVsLWRv/Zy0wNDEwLTU2OTk0/NzIuanBnP2ZtdA" class="img-fluid">
+                </div>
+              </div>
+              <div class="col">
+                <div class="bg-primary text-light">
+                  <img src="https://www.olivet.edu/wp-content/uploads/2025/01/Faces-21-900x900.jpg" class="img-fluid">
+                </div>
+              </div>
+              <div class="col">
+                <div class="bg-primary text-light"><img src="https://image.yachtcharterfleet.com/w900/h900/qh/ca/k5b94f297/article/content/1642679/five-reasons-to-visit-santorini-on-a-luxury-yacht-charter.jpg" class="img-fluid">
+                </div>
+              </div>
+            </div>
+        
+        <!-- Second Row -->
+        
+            <div class="row justify-content-center">
+               <div class="col">
+                <div>
+                  <img src="https://www.bicepsafterbabies.com/wp-content/uploads/Episode-324-IG-Post-1.png" class="img-fluid">
+                </div>
+              </div>
+              <div class="col">
+                <div class="bg-primary text-light">
+                  <img src="https://www.salutfromparis.com/wp-content/uploads/2022/01/Eiffel-Tower-solo-traveler-to-Paris-900-x-900-px.jpg" class="img-fluid">
+                </div>
+              </div>
+              <div class="col">
+                <div class="bg-primary text-light"><img src="https://pbs.twimg.com/media/ER0ROlSUYAIhziQ.png" class="img-fluid">
+                </div>
+              </div>
+            </div>
+        
+        <!--Third Row-->
+        
+            <div class="row justify-content-center">
+              <div class="col">
+                <div class="bg-primary text-light">
+                  <img src="https://www.michaelkormos.com/wp-content/uploads/2024/07/central-park-photographer.jpg" class="img-fluid">
+                </div>
+              </div>
+              <div class="col">
+                <div class="bg-primary text-light">
+                  <img src="https://zigrin.com/wp-content/uploads/2022/01/source-code-review-services.jpg" class="img-fluid">
+                </div>
+              </div>
+              <div class="col">
+                <div class="bg-primary text-light"><img src="https://images.prismic.io/element451/1379a91d-d771-4d2c-af88-1394902912a3_Student+Success.jpg?auto=compress%2Cformat&rect=209%2C0%2C836%2C836&w=900&h=auto&ixlib=react-9.0.3" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col">
-        <div class="bg-primary text-light">
-          <img src="https://www.olivet.edu/wp-content/uploads/2025/01/Faces-21-900x900.jpg" class="img-fluid">
-        </div>
-      </div>
-      <div class="col">
-        <div class="bg-primary text-light"><img src="https://image.yachtcharterfleet.com/w900/h900/qh/ca/k5b94f297/article/content/1642679/five-reasons-to-visit-santorini-on-a-luxury-yacht-charter.jpg" class="img-fluid">
+      <!--1x1 Grid-->
+      <div class="tab-pane fade" id="Individual" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+        <div class="container text-center">
+          <div class="row justify-content-center">
+            <div class="col-7 bg-primary">
+              <div class="postheader bg-success">
+                <p><img src="https://imgs.search.brave.com/iqXqYtXIumzQMuTicP1NL_k2e-qMOt_JZoWYRggzz3M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZnJlZWltYWdl/cy5jb20vaW1hZ2Vz/L2xhcmdlLXByZXZp/ZXdzL2EzMC9oYXBw/eS1wbGF5ZnVsLWRv/Zy0wNDEwLTU2OTk0/NzIuanBnP2ZtdA" class="img-fluid"></p>
+              </div>
+              <div class="postbody">
+                <p>Placeholder body</p>
+              </div>
+              <div class="posttext">
+                <p>Placeholder Text</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-
-<!-- Second Row -->
-
-    <div class="row justify-content-center">
-       <div class="col">
-        <div>
-          <img src="https://www.bicepsafterbabies.com/wp-content/uploads/Episode-324-IG-Post-1.png" class="img-fluid">
-        </div>
-      </div>
-      <div class="col">
-        <div class="bg-primary text-light">
-          <img src="https://www.salutfromparis.com/wp-content/uploads/2022/01/Eiffel-Tower-solo-traveler-to-Paris-900-x-900-px.jpg" class="img-fluid">
-        </div>
-      </div>
-      <div class="col">
-        <div class="bg-primary text-light"><img src="https://pbs.twimg.com/media/ER0ROlSUYAIhziQ.png" class="img-fluid">
-        </div>
-      </div>
-    </div>
-
-<!--Third Row-->
-
-    <div class="row justify-content-center">
-      <div class="col">
-        <div class="bg-primary text-light">
-          <img src="https://www.michaelkormos.com/wp-content/uploads/2024/07/central-park-photographer.jpg" class="img-fluid">
-        </div>
-      </div>
-      <div class="col">
-        <div class="bg-primary text-light">
-          <img src="https://zigrin.com/wp-content/uploads/2022/01/source-code-review-services.jpg" class="img-fluid">
-        </div>
-      </div>
-      <div class="col">
-        <div class="bg-primary text-light"><img src="https://images.prismic.io/element451/1379a91d-d771-4d2c-af88-1394902912a3_Student+Success.jpg?auto=compress%2Cformat&rect=209%2C0%2C836%2C836&w=900&h=auto&ixlib=react-9.0.3" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
