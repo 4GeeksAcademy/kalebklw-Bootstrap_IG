@@ -29,7 +29,5 @@ body{
     background-color: black !important;
 }
 
-.posttext{
-    height: 70px;
-    background-color: azure;
+.col-6, .card1{
 }
