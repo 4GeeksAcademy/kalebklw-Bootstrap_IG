@@ -12,13 +12,12 @@
 <div class="Everything-Navbar">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#" style="padding-right: 215rem;"><i class="bi bi-instagram"></i> Instagram</a>
+        <a class="navbar-brand" href="#" style="padding-right: 208rem;"><i class="bi bi-instagram"></i> Instagram</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
 
 <!--Start Modal-->
-
     <div class="Everything-Modal" style="padding-right: 10px;">
         <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#ModalTest">Create a new post</button>
         <div class="modal fade" id="ModalTest" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -30,7 +29,9 @@
           </div>
           <div class="modal-body">
             <p>Caption:</p>
-            <input type="text" class="form-control" placeholder="Add the caption of your post here">
+            <div class="mb-3">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
             <div class="modalbuttons">
               <button type="button" class="btn btn-secondary" id="camera"><i class="bi bi-camera-fill"></i></button>
               <button type="button" class="btn btn-secondary" id="pin"><i class="bi bi-geo-alt-fill"></i></button>
@@ -44,7 +45,6 @@
       </div>
     </div>
     </div>
-
 <!--End Modal-->
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -77,11 +77,10 @@
     <div class="tab-content" id="pills-tabContent">
       <!--3x3 Grid-->
         <div class="tab-pane fade show active" id="Grid" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-          <div class="Everything-Grid">
             <div class="container tab-pane">
 
           <!--First Row-->
-              <div class="row justify-content-center">
+              <div class="row justify-content-center" style="padding-top: 24px;">
                 <div class="col">
                   <div class="bg-primary text-light">
                     <img src="https://imgs.search.brave.com/iqXqYtXIumzQMuTicP1NL_k2e-qMOt_JZoWYRggzz3M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZnJlZWltYWdl/cy5jb20vaW1hZ2Vz/L2xhcmdlLXByZXZp/ZXdzL2EzMC9oYXBw/eS1wbGF5ZnVsLWRv/Zy0wNDEwLTU2OTk0/NzIuanBnP2ZtdA" class="img-fluid">
@@ -99,7 +98,7 @@
               </div>
           
           <!-- Second Row -->
-              <div class="row justify-content-center">
+              <div class="row justify-content-center" style="padding-top: 24px;">
                 <div class="col">
                   <div>
                     <img src="https://www.bicepsafterbabies.com/wp-content/uploads/Episode-324-IG-Post-1.png" class="img-fluid">
@@ -117,7 +116,7 @@
               </div>
         
           <!--Third Row-->
-              <div class="row justify-content-center">
+              <div class="row justify-content-center" style="padding-top: 24px;">
                 <div class="col">
                   <div class="bg-primary text-light">
                     <img src="https://www.michaelkormos.com/wp-content/uploads/2024/07/central-park-photographer.jpg" class="img-fluid">
@@ -134,7 +133,6 @@
                 </div>
               </div>
             </div>
-          </div>
         </div>
 
         <!--1x1 Grid-->
